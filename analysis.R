@@ -6,9 +6,9 @@
 #Adapted from a statistical modelling exercise
 
 # First Import the dataset and assign it to vectors 
-co2_temperature_data <-read.csv("~/co2_temperature_data.csv")
+co2_temperature_data <-read.csv("co2_temperature_data.csv")
 year<-co2_temperature_data$Year
-x<-co2_temperature_data$co2
+x<-co2_temperature_data$CO2
 y<-co2_temperature_data$temperature
 #plot the data to see how co2 and temperature vary over the period of time 
 plot(year, y, main="Average Surface Temperature Over Time", xlab= "year", ylab= "degrees C") 
