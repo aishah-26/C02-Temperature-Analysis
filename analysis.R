@@ -18,4 +18,6 @@ summary(co2_temperature_model)
 plot(year, y, main="Average Surface Temperature Over Time", xlab= "year", ylab= "degrees C") 
 plot(year, x, main= "co2 ppm at Mauna Loa over time", xlab="year", ylab="co2 ppm average") 
 plot(x,y, main="Temperature versus co2 ppm", xlab= "Mauna Loa co2 yearly average", ylab= "surface temperature degrees C")
-abline(co2_temperature_model) 
+abline(co2_temperature_model)
+plot(co2_temperature_model, which=1)
+
