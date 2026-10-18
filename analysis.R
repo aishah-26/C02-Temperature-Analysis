@@ -3,7 +3,7 @@
 #
 # Statistical Modelling in R
 # Method: Simple Linear Regression 
-#Adapted from a statistical modelling exercise
+#Adapted from a statistical modelling project
 
 # First Import the dataset and assign it to vectors 
 co2_temperature_data<-read.csv("co2_temperature_data.csv")
