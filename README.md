@@ -1,6 +1,6 @@
 Exploring the Realtionship Between Atmospheric CO2 and Global Surface Temperature 
 
-Overview
+Overview: 
 This project explores the relationship between Atmospheric carbon dioxide (CO2) concentrations and Global average surface temperature using R and linear regression 
 
 The analysis examines how both variable change over a period of time and investigates if higher atmospheric CO2 concentrations are associated with higher global surface temperatures.
@@ -14,7 +14,7 @@ Objectives:
 - Apply linear regression to model the relationship between 2 variables
 - Interpret regression output and visualise results using R
 
-Dataset
+Dataset:
 
 The dataset is stored in co2_temperature_data.csv and contains the following variables:
 year = year of observation 
@@ -23,7 +23,7 @@ Temperature = Global Average surface temperature
 
 This data was taken from an exercise, which references NASA GISS global temperature data and atmospheric CO2 measurements from the Mauna Loa Observatory.
 
-Methodology
+Methodology:
 
 The analysis was conducted in R using the following steps:
 1. data import: Loaded the CSV dataset into R
@@ -59,7 +59,7 @@ There is a linear relationship between atmospheric CO2 concentration and global 
 
 NOTE: we assume a 5% significance level 
 
-Visualisations
+Visualisations:
 
 The R script produces 3 plots:
 
@@ -78,7 +78,7 @@ F statistic = 859.8
 F statistic degrees of freedom 1 and 65
 P-value = 2.2 x 10^-16
 
-Interpretation of Results 
+Interpretation of Results: 
 
 There is a linear relationship between atmospheric CO2 concentration and global average surface temperature. The reported F statistic is 859.8, with 1 and 65 degrees of freedom, and the p value is 2.2 x 10^-16. Since the P value is substantially below the conventional 5% significance level, the null hypothesis is rejected. The results provide strong statistical evidence of linear association between CO2 concentration and temperature in this dataset. However this finding does not establish causation, as the model considers CO2 concentration as the sole explanatory variable and does not account for other factors that influence global temperature. 
 
