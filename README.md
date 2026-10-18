@@ -1,2 +1,3 @@
 # co2-temperature-analysis-
-Statistical analysis of atmospheric co2 concentrations and global surface temperature using R. 
+Ecploring the Realtionship Between Atmospheric CO2 and Global Surface Temperature 
+
